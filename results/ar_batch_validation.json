@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "created_at_unix": 1787497444.858893,
+  "source_sha256": "89de380ccfba17355be9bdcd8a7fc242c3258181543228f62a2b2e2db91fc9e3",
+  "billing_basis": "public per-cycle line-item report: Modal workspace_billing_report at hourly resolution; public SDK exposes no credit-adjusted summary",
+  "batch_sizes": [
+    32,
+    1
+  ],
+  "n_rows": 8,
+  "relative_difference_threshold": 0.01,
+  "per_row": [
+    {
+      "text_id": "smoke-48",
+      "fixture_index": 48,
+      "batch_32_mse": 0.1374887079000473,
+      "batch_1_mse": 0.13748827576637268,
+      "relative_difference": 3.143058360524401e-06,
+      "pass": true
+    },
+    {
+      "text_id": "smoke-4",
+      "fixture_index": 4,
+      "batch_32_mse": 0.09430714696645737,
+      "batch_1_mse": 0.09429533779621124,
+      "relative_difference": 0.00012523599280853053,
+      "pass": true
+    },
+    {
+      "text_id": "smoke-1",
+      "fixture_index": 1,
+      "batch_32_mse": 0.0705275684595108,
+      "batch_1_mse": 0.07043524831533432,
+      "relative_difference": 0.001310709430073583,
+      "pass": true
+    },
+    {
+      "text_id": "smoke-30",
+      "fixture_index": 30,
+      "batch_32_mse": 0.08429118245840073,
+      "batch_1_mse": 0.08431591093540192,
+      "relative_difference": 0.0002932836368231347,
+      "pass": true
+    },
+    {
+      "text_id": "smoke-18",
+      "fixture_index": 18,
+      "batch_32_mse": 0.15369491279125214,
+      "batch_1_mse": 0.15416593849658966,
+      "relative_difference": 0.0030553163035292913,
+      "pass": true
+    },
+    {
+      "text_id": "smoke-16",
+      "fixture_index": 16,
+      "batch_32_mse": 0.15426699817180634,
+      "batch_1_mse": 0.1543860286474228,
+      "relative_difference": 0.0007709925351359965,
+      "pass": true
+    },
+    {
+      "text_id": "smoke-2",
+      "fixture_index": 2,
+      "batch_32_mse": 0.05044430121779442,
+      "batch_1_mse": 0.05046001821756363,
+      "relative_difference": 0.0003114743181709791,
+      "pass": true
+    },
+    {
+      "text_id": "smoke-36",
+      "fixture_index": 36,
+      "batch_32_mse": 0.06104226037859917,
+      "batch_1_mse": 0.060959722846746445,
+      "relative_difference": 0.0013539682924776843,
+      "pass": true
+    }
+  ],
+  "all_rows_pass": true,
+  "model_repo": "ceselder/qwen3.6-27b-nla-rl",
+  "mse_dtype": "fp32",
+  "length_sorted_batching": true
+}

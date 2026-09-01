@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "paths": [
+    "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig1_excess_by_label.png",
+    "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig2_paraphrase_false_substitute.png",
+    "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig3_ar_shortcut_fve.png",
+    "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig4_roc_curves.png"
+  ],
+  "fig3_shortcut_summary": [
+    {
+      "kind": "SHORTCUT_CONTEXT_COPY",
+      "label": "context-copy",
+      "n": 300,
+      "mean_fve": -0.26255268920657454,
+      "ci95": [
+        -0.3144410369109945,
+        -0.21214954132051742
+      ],
+      "bootstrap_attempts": 1000
+    },
+    {
+      "kind": "GENUINE",
+      "label": "genuine",
+      "n": 300,
+      "mean_fve": 0.6365697295669124,
+      "ci95": [
+        0.6103323952175348,
+        0.660949386472382
+      ],
+      "bootstrap_attempts": 1000
+    },
+    {
+      "kind": "SHORTCUT_SHUFFLED",
+      "label": "shuffled",
+      "n": 300,
+      "mean_fve": 0.0023566516995271888,
+      "ci95": [
+        -0.03664328477699012,
+        0.03955543148161965
+      ],
+      "bootstrap_attempts": 1000
+    },
+    {
+      "kind": "SHORTCUT_MISMATCHED",
+      "label": "mismatched",
+      "n": 300,
+      "mean_fve": -0.7771209940852011,
+      "ci95": [
+        -0.8184352771428971,
+        -0.7333487784227793
+      ],
+      "bootstrap_attempts": 1000
+    }
+  ],
+  "fig4_roc_entries": [
+    {
+      "score": "raw_excess",
+      "label": "Raw excess",
+      "n": 2119,
+      "auroc": 0.4773516135415068
+    },
+    {
+      "score": "paraphrase_excess",
+      "label": "DELETION_REWRITE averaged excess",
+      "n": 200,
+      "auroc": 0.5164
+    },
+    {
+      "score": "recurrence_excess",
+      "label": "Recurrence-aggregated excess",
+      "n": 691,
+      "auroc": 0.5230648607664736
+    },
+    {
+      "score": "solo_gain",
+      "label": "Solo gain",
+      "n": 2119,
+      "auroc": 0.403746900236146
+    },
+    {
+      "score": "recurrence_positions",
+      "label": "recurrence count",
+      "n": 2119,
+      "auroc": 0.6651917554140694
+    }
+  ]
+}

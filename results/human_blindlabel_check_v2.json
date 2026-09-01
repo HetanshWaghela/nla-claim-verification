@@ -1,0 +1,47 @@
+{
+ "judge": "human, 50-claim seed-1 sample (never previously viewed), labeled 2026-08-25",
+ "sample": "results/human_label_sample_v2.md",
+ "n": 50,
+ "agree": 43,
+ "rate": 0.86,
+ "crossings_true_vs_false": 3,
+ "disagreements": [
+  {
+   "claim_id": "c086/0/001",
+   "human": "RELATED_FALSE",
+   "model": "TRUE"
+  },
+  {
+   "claim_id": "c233/0/011",
+   "human": "RELATED_FALSE",
+   "model": "UNVERIFIABLE"
+  },
+  {
+   "claim_id": "c101/52/008",
+   "human": "RELATED_FALSE",
+   "model": "UNVERIFIABLE"
+  },
+  {
+   "claim_id": "c272/0/003",
+   "human": "RELATED_FALSE",
+   "model": "TRUE"
+  },
+  {
+   "claim_id": "c177/0/004",
+   "human": "UNRELATED_FALSE",
+   "model": "RELATED_FALSE"
+  },
+  {
+   "claim_id": "c274/0/001",
+   "human": "RELATED_FALSE",
+   "model": "TRUE"
+  },
+  {
+   "claim_id": "c052/0/005",
+   "human": "UNVERIFIABLE",
+   "model": "RELATED_FALSE"
+  }
+ ],
+ "human_label_file": "results/human_labels_v2_hetansh.md",
+ "disclosure": "Key was present at the bottom of the labeled file; the labeler reports not scrolling to it before finishing. Seven disagreements, all in the stricter-than-model direction, are consistent with independent judgment."
+}

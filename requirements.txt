@@ -1,0 +1,5 @@
+matplotlib
+modal
+numpy
+pyarrow
+scikit-learn

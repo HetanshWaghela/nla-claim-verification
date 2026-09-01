@@ -1,0 +1,186 @@
+{
+  "fixture_indices": [
+    1,
+    2,
+    16,
+    30,
+    48
+  ],
+  "threshold": 0.98,
+  "required_passing_fixtures": 4,
+  "candidates": [
+    {
+      "layer_index": 42,
+      "variant": "block_output",
+      "cosines": [
+        {
+          "fixture_index": 1,
+          "cosine_similarity": 0.9999142289161682
+        },
+        {
+          "fixture_index": 2,
+          "cosine_similarity": 0.9997650980949402
+        },
+        {
+          "fixture_index": 16,
+          "cosine_similarity": 0.9999289512634277
+        },
+        {
+          "fixture_index": 30,
+          "cosine_similarity": 0.9999237656593323
+        },
+        {
+          "fixture_index": 48,
+          "cosine_similarity": 0.9998009204864502
+        }
+      ],
+      "passing_fixtures": 5,
+      "pass": true
+    },
+    {
+      "layer_index": 41,
+      "variant": "block_output",
+      "cosines": [
+        {
+          "fixture_index": 1,
+          "cosine_similarity": 0.9721885919570923
+        },
+        {
+          "fixture_index": 2,
+          "cosine_similarity": 0.9868175387382507
+        },
+        {
+          "fixture_index": 16,
+          "cosine_similarity": 0.9763950705528259
+        },
+        {
+          "fixture_index": 30,
+          "cosine_similarity": 0.965325653553009
+        },
+        {
+          "fixture_index": 48,
+          "cosine_similarity": 0.9803500771522522
+        }
+      ],
+      "passing_fixtures": 2,
+      "pass": false
+    },
+    {
+      "layer_index": 43,
+      "variant": "block_output",
+      "cosines": [
+        {
+          "fixture_index": 1,
+          "cosine_similarity": 0.9738850593566895
+        },
+        {
+          "fixture_index": 2,
+          "cosine_similarity": 0.9842819571495056
+        },
+        {
+          "fixture_index": 16,
+          "cosine_similarity": 0.9739020466804504
+        },
+        {
+          "fixture_index": 30,
+          "cosine_similarity": 0.9693171977996826
+        },
+        {
+          "fixture_index": 48,
+          "cosine_similarity": 0.9806271195411682
+        }
+      ],
+      "passing_fixtures": 2,
+      "pass": false
+    },
+    {
+      "layer_index": 42,
+      "variant": "input_norm",
+      "cosines": [
+        {
+          "fixture_index": 1,
+          "cosine_similarity": 0.9584811925888062
+        },
+        {
+          "fixture_index": 2,
+          "cosine_similarity": 0.97957444190979
+        },
+        {
+          "fixture_index": 16,
+          "cosine_similarity": 0.9676892757415771
+        },
+        {
+          "fixture_index": 30,
+          "cosine_similarity": 0.9526300430297852
+        },
+        {
+          "fixture_index": 48,
+          "cosine_similarity": 0.9719150066375732
+        }
+      ],
+      "passing_fixtures": 0,
+      "pass": false
+    },
+    {
+      "layer_index": 42,
+      "variant": "post_attention_norm",
+      "cosines": [
+        {
+          "fixture_index": 1,
+          "cosine_similarity": 0.9054057598114014
+        },
+        {
+          "fixture_index": 2,
+          "cosine_similarity": 0.9451445937156677
+        },
+        {
+          "fixture_index": 16,
+          "cosine_similarity": 0.928195059299469
+        },
+        {
+          "fixture_index": 30,
+          "cosine_similarity": 0.9150034189224243
+        },
+        {
+          "fixture_index": 48,
+          "cosine_similarity": 0.9393397569656372
+        }
+      ],
+      "passing_fixtures": 0,
+      "pass": false
+    },
+    {
+      "layer_index": 42,
+      "variant": "block_input",
+      "cosines": [
+        {
+          "fixture_index": 1,
+          "cosine_similarity": 0.9721885919570923
+        },
+        {
+          "fixture_index": 2,
+          "cosine_similarity": 0.9868175387382507
+        },
+        {
+          "fixture_index": 16,
+          "cosine_similarity": 0.9763950705528259
+        },
+        {
+          "fixture_index": 30,
+          "cosine_similarity": 0.965325653553009
+        },
+        {
+          "fixture_index": 48,
+          "cosine_similarity": 0.9803500771522522
+        }
+      ],
+      "passing_fixtures": 2,
+      "pass": false
+    }
+  ],
+  "selected_convention": {
+    "layer_index": 42,
+    "variant": "block_output"
+  },
+  "pass": true
+}

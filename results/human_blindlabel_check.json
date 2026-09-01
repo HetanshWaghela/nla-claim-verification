@@ -1,0 +1,12 @@
+{
+ "judge": "human, 50-claim seed-0 sample, labeled 2026-08-23 without the key in view",
+ "sample": "results/human_label_sample.md (seed 0)",
+ "n": 50,
+ "agree": 46,
+ "rate": 0.92,
+ "crossings_true_vs_false": 1,
+ "disagreements": ["c074/0/003", "c230/0/010", "c146/0/009", "c130/0/007"],
+ "disclosure": "The seed-0 answer key had been viewed once about 7 days before labeling; the 4 disagreements with the key are evidence of independent judgment rather than recall. Not a fully unexposed blind pass.",
+ "clean_rerun_available": "results/human_label_sample_v2.md (seed 1, never viewed, not yet labeled)",
+ "note": "Supersedes an earlier auto-generated version of this file that had compared against the unlabeled v2 sample (agree=0, human=null). Source of record: results/phase3_labeling_notes.md, DEBT STATUS UPDATE 2026-08-23."
+}

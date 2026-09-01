@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "created_at_unix": 1787499726.669649,
+  "source_sha256": "035f5acd176d0b6f8857f87748ee960e58d37ed641656099a03577ada15242a5",
+  "billing": {
+    "cost_usd": "0.00",
+    "billing_basis": "local Python process; no Modal, OpenRouter/API calls, GPU, or paid compute"
+  },
+  "gates": {
+    "startup": "passed",
+    "golden_tests": "passed",
+    "data_metrics": "passed",
+    "confounds": "passed",
+    "robustness": "passed",
+    "figures": "passed",
+    "report": "written",
+    "extreme_cases": "written"
+  },
+  "rows": {
+    "eligible": 2127,
+    "deletion_rewrite_overlap": 208,
+    "recurrence_non_null": 691
+  },
+  "outputs": {
+    "analysis_report": "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/analysis_report.md",
+    "extreme_cases": "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/extreme_cases.md",
+    "figures": [
+      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig1_excess_by_label.png",
+      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig2_paraphrase_false_substitute.png",
+      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig3_ar_shortcut_fve.png",
+      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig4_roc_curves.png"
+    ]
+  },
+  "wall_time_seconds": 42.50435996055603
+}

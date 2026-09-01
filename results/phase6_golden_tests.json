@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "created_at_unix": 1787499684.272901,
+  "source_sha256": "035f5acd176d0b6f8857f87748ee960e58d37ed641656099a03577ada15242a5",
+  "tests": {
+    "auroc_and_polarity_sign": {
+      "status": "passed",
+      "auc": 0.888888888888889,
+      "negated_auc": 0.11111111111111112,
+      "expected_auc": 0.8888888888888888,
+      "expected_negated_auc": 0.1111111111111111
+    },
+    "polarity_contract": {
+      "status": "passed",
+      "formula": "excess = delta_mse(delete) - mean(delta_mse(random_span_x3))",
+      "higher_excess_predicts": "TRUE",
+      "true_label_value": 1,
+      "auc": 1.0
+    },
+    "context_level_bootstrap": {
+      "status": "passed",
+      "dominant_context_fraction": 0.8,
+      "context_level_ci_width": 0.9523809523809523,
+      "claim_level_ci_width": 0.16000000000000003,
+      "width_ratio": 5.952380952380951,
+      "resamples": 1000
+    },
+    "edit_pipeline": {
+      "status": "passed",
+      "explanation": "Alpha [CLAIM] Omega",
+      "span": "[CLAIM]",
+      "deleted_text": "Alpha Omega",
+      "expected_deleted_text": "Alpha Omega"
+    }
+  },
+  "duration_seconds": 0.020631790161132812
+}

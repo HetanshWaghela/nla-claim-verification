@@ -1,0 +1,33 @@
+{
+ "total": 2971,
+ "missing": 0,
+ "extra": 0,
+ "invalid": [],
+ "label_distribution": {
+  "TRUE": 860,
+  "RELATED_FALSE": 1414,
+  "UNVERIFIABLE": 689,
+  "UNRELATED_FALSE": 8
+ },
+ "by_stratum": {
+  "A": {
+   "TRUE": 322,
+   "RELATED_FALSE": 452,
+   "UNVERIFIABLE": 235
+  },
+  "B": {
+   "TRUE": 225,
+   "RELATED_FALSE": 514,
+   "UNVERIFIABLE": 226,
+   "UNRELATED_FALSE": 5
+  },
+  "C": {
+   "TRUE": 313,
+   "RELATED_FALSE": 448,
+   "UNVERIFIABLE": 228,
+   "UNRELATED_FALSE": 3
+  }
+ },
+ "related_false_pct_of_context_claims": 65.7,
+ "all_pass": true
+}

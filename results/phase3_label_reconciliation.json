@@ -1,0 +1,1705 @@
+{
+  "rule": "If a prediction claim contains a checkable false premise (e.g. 'final token X will be followed by...' when the final token is not X), label it RELATED_FALSE and note the false premise.",
+  "examined": 283,
+  "relabeled": 20,
+  "rows": [
+    {
+      "claim_id": "c000/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is a prediction about content beyond the text's cutoff point."
+    },
+    {
+      "claim_id": "c000/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim quotes the final text as \"B7 (\" but the context actually ends \"...achieved a 54% NSR.\\n- 7B (\" — the digits are transposed; the quoted final fragment is false."
+    },
+    {
+      "claim_id": "c000/0/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim asserts \"B7 (\" introduces the next title/publisher, but the actual final characters of the context are \"7B (\", not \"B7 (\"."
+    },
+    {
+      "claim_id": "c000/0/012",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts how a future, unseen title/publisher would complete the pattern."
+    },
+    {
+      "claim_id": "c000/0/013",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim treats \"B7 (\" as the existing trailing fragment, but the context actually ends in \"7B (\" — the premise misquotes the final text."
+    },
+    {
+      "claim_id": "c001/39/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts content beyond the text's actual end ('the')."
+    },
+    {
+      "claim_id": "c001/39/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction ('likely') about content past the text's end."
+    },
+    {
+      "claim_id": "c001/39/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Asserts specific continuation content beyond where the given text stops."
+    },
+    {
+      "claim_id": "c001/39/012",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Asserts specific continuation content beyond where the given text stops."
+    },
+    {
+      "claim_id": "c001/39/014",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts what completes the noun phrase beyond the text's end."
+    },
+    {
+      "claim_id": "c001/39/015",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion words beyond the text's end."
+    },
+    {
+      "claim_id": "c002/78/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts content beyond the given text's end."
+    },
+    {
+      "claim_id": "c002/78/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation beyond the text's end."
+    },
+    {
+      "claim_id": "c003/117/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is a prediction about further list items beyond the given text."
+    },
+    {
+      "claim_id": "c003/117/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculating about what the truncated OCR figure 'should' be is an unverifiable guess about intended content."
+    },
+    {
+      "claim_id": "c003/117/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is reasoning about how the model would predict the next token, not a checkable text fact."
+    },
+    {
+      "claim_id": "c003/117/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is a prediction about what numeric continuation follows the cut-off text."
+    },
+    {
+      "claim_id": "c204/182/013",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific content that would follow the text's end."
+    },
+    {
+      "claim_id": "c205/221/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion words beyond the text's actual end."
+    },
+    {
+      "claim_id": "c205/221/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative interpretation of significance beyond the text's actual end."
+    },
+    {
+      "claim_id": "c205/221/013",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Fabricated continuation beyond the text's actual end, also using the wrong name 'Yokoyama'."
+    },
+    {
+      "claim_id": "c206/260/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c206/260/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content, referencing an invented site name 'Cowper Cotes'."
+    },
+    {
+      "claim_id": "c206/260/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c206/260/012",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c207/299/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what location will complete the truncated prepositional phrase."
+    },
+    {
+      "claim_id": "c207/299/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that a conflict or consequence will follow."
+    },
+    {
+      "claim_id": "c108/325/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim asserts the token following the mid-text date is \"30 fmt\", but that date is already followed by existing, checkable text (\"metadata: {\\\"parentUuid\\\": ...\") — not \"30 fmt\"."
+    },
+    {
+      "claim_id": "c108/325/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific command would appear next."
+    },
+    {
+      "claim_id": "c108/325/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is speculative interpretation of an unseen continuation."
+    },
+    {
+      "claim_id": "c108/325/012",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a punctuation mark that would follow the text's end."
+    },
+    {
+      "claim_id": "c109/364/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim asserts the current token is \"100-0\", but the context actually cuts off mid-timestamp at \"...\\\"timestamp\\\": \\\"2026-0\", an unrelated string."
+    },
+    {
+      "claim_id": "c109/364/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c109/364/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts subsequent config fields beyond the text's actual end."
+    },
+    {
+      "claim_id": "c109/364/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "References a 'header at the top' not present in the given context, so it cannot be checked."
+    },
+    {
+      "claim_id": "c110/403/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim asserts the truncated text is a timestamp fragment (`\"end_time\": \"2025-03-25T19:00:42.577Z\", \"`) opening a second \"reason\" string, but the context actually cuts off at `\"data\": {\"type\": \"bash_progress\", \"` — an unrelated JSON fragment with no such timestamp or reason field."
+    },
+    {
+      "claim_id": "c110/403/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen content and introduces 'Docker', which is not mentioned anywhere in the text."
+    },
+    {
+      "claim_id": "c110/403/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c110/403/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is a claim about the model's internal reasoning, not something checkable against the text."
+    },
+    {
+      "claim_id": "c111/442/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts further bullet entries beyond the given cut-off text."
+    },
+    {
+      "claim_id": "c111/442/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim predicts the incomplete clause is about a `.lake` directory, but the bullet it completes is explicitly about `.claude/` (\"no longer lists `.claude/`\"), an already-established reference in the given text."
+    },
+    {
+      "claim_id": "c111/442/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim predicts the clause describes `.cfg` files or an unrelated folder, but the bullet's established subject (already visible in the text) is `.claude/`, not a different directory."
+    },
+    {
+      "claim_id": "c111/442/013",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific contrasting clause not present in the given text."
+    },
+    {
+      "claim_id": "c012/468/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific concluding phrase beyond the text's end."
+    },
+    {
+      "claim_id": "c012/468/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific wording that would follow the text's end."
+    },
+    {
+      "claim_id": "c012/468/012",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that a new line/continuation follows the text's end."
+    },
+    {
+      "claim_id": "c013/507/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific content that would follow the text's actual end."
+    },
+    {
+      "claim_id": "c013/507/012",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about unseen continuation content."
+    },
+    {
+      "claim_id": "c013/507/013",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative examples of continuation beyond the text's end."
+    },
+    {
+      "claim_id": "c014/546/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen quote content beyond the truncation."
+    },
+    {
+      "claim_id": "c014/546/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen quote content beyond the truncation."
+    },
+    {
+      "claim_id": "c014/546/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen quote content beyond the truncation."
+    },
+    {
+      "claim_id": "c014/546/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the grammar of unseen continuation text."
+    },
+    {
+      "claim_id": "c015/585/002",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that the same register continues beyond the given text."
+    },
+    {
+      "claim_id": "c015/585/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts an unwritten continuation mocking 'lucky boys'."
+    },
+    {
+      "claim_id": "c015/585/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific slang noun that would complete the truncated sentence."
+    },
+    {
+      "claim_id": "c015/585/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a following humorous phrase not present in the given text."
+    },
+    {
+      "claim_id": "c216/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what specific words would complete the truncated title 'Merry'."
+    },
+    {
+      "claim_id": "c217/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts continuation content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c217/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c217/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c217/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Fabricated continuation ('Tasmania') beyond the text's actual end."
+    },
+    {
+      "claim_id": "c218/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen specific example that follows."
+    },
+    {
+      "claim_id": "c218/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c219/0/003",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts further content about social equity beyond the truncated text."
+    },
+    {
+      "claim_id": "c219/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific noun phrase needed to complete the comparative clause."
+    },
+    {
+      "claim_id": "c120/0/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific function call that would follow, and it also misnames the function as 'parseBytes' rather than 'ParseFromBytes'."
+    },
+    {
+      "claim_id": "c120/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is a claim about what completion is needed next, i.e. a next-token prediction."
+    },
+    {
+      "claim_id": "c121/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c121/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c122/0/001",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content, and is premised on an inaccurate 'code review comment' framing."
+    },
+    {
+      "claim_id": "c122/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen next character/line; also the established format uses an arrow, not a colon."
+    },
+    {
+      "claim_id": "c122/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim asserts \"The text reads\" a specific fabricated comment, but the actual Go code at that point is `var lines []Line` / `reader := bufio.NewReader(...)` — no such comment exists in the given text."
+    },
+    {
+      "claim_id": "c122/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c123/0/003",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that another log entry follows the truncated text."
+    },
+    {
+      "claim_id": "c123/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what kind of entry follows the truncated 'metadata:' label."
+    },
+    {
+      "claim_id": "c123/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific field that will begin next."
+    },
+    {
+      "claim_id": "c123/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unwritten future content and specific matching timestamp fields."
+    },
+    {
+      "claim_id": "c024/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts content that would follow after the text's actual ending."
+    },
+    {
+      "claim_id": "c024/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an explicit prediction of continuation text beyond the given passage."
+    },
+    {
+      "claim_id": "c145/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim characterizes the truncated content as a \"web socket URL\" needing a \"bash_60\" suffix, but the context is a bash_progress JSON log ending in an unrelated UUID (\"...b1281f60-0ac0-480b-b8d3-f778048b60\") — there is no websocket URL or \"bash_60\" pattern in the text."
+    },
+    {
+      "claim_id": "c145/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about what follows beyond the text's actual end."
+    },
+    {
+      "claim_id": "c145/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c048/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific digits that would follow the text's end."
+    },
+    {
+      "claim_id": "c048/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an explicit prediction of continuation content."
+    },
+    {
+      "claim_id": "c048/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that remaining phone digits would follow."
+    },
+    {
+      "claim_id": "c266/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c266/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c266/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation beyond the text's end."
+    },
+    {
+      "claim_id": "c266/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c169/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts continuation content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c169/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c169/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c169/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative interpretation of unseen continuation beyond the text's actual end."
+    },
+    {
+      "claim_id": "c072/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific noun phrase that would follow the text's end."
+    },
+    {
+      "claim_id": "c072/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an explicit prediction of continuation text."
+    },
+    {
+      "claim_id": "c290/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c290/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c290/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation misattributing the statement to 'Mariano', a name not in the text."
+    },
+    {
+      "claim_id": "c193/0/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion syntax beyond the text's actual end."
+    },
+    {
+      "claim_id": "c193/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c096/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific names and phrasing that would follow the text's end."
+    },
+    {
+      "claim_id": "c096/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what further handles would complete the list."
+    },
+    {
+      "claim_id": "c027/0/002",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen future entries' topics beyond the given citation list."
+    },
+    {
+      "claim_id": "c027/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific closing page number of a truncated citation."
+    },
+    {
+      "claim_id": "c229/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about the meaning of unseen continuation."
+    },
+    {
+      "claim_id": "c132/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific hex characters that would follow."
+    },
+    {
+      "claim_id": "c132/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim quotes the truncated identifier as \"Thread: e429c4e1-a4e-4bf\", but the context actually ends \"...\\\"uuid\\\": \\\"585419d8-c5e1-4bf\" — a completely different UUID with no \"Thread:\" label."
+    },
+    {
+      "claim_id": "c051/0/001",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim predicts the article builds toward \"local Salt Lake City reaction\", but the given context's dateline explicitly establishes the setting as \"COLORADO SPRINGS, Colo.\" — contradicting an already-stated fact."
+    },
+    {
+      "claim_id": "c051/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the grammatical form of the sentence continuation."
+    },
+    {
+      "claim_id": "c051/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is a speculative guess at specific wording that could follow the cut-off text."
+    },
+    {
+      "claim_id": "c253/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction of the specific object beyond the text's actual end."
+    },
+    {
+      "claim_id": "c253/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts the nature of continuation content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c253/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim quotes the truncated sentence as \"In October 2014, Yandex officially organized\", but the context actually reads \"On October 11, 2011, Altoros officially organized\" — wrong company and wrong date for existing text."
+    },
+    {
+      "claim_id": "c253/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c156/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the remaining digits that would follow the text's end."
+    },
+    {
+      "claim_id": "c156/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific content that would follow, tied to the SessionID topic."
+    },
+    {
+      "claim_id": "c075/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts how the text will continue after 'I will acknowledge here'."
+    },
+    {
+      "claim_id": "c075/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the reader's expectation of what follows the cut-off phrase."
+    },
+    {
+      "claim_id": "c075/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about specific unwritten content, including an unmentioned reference to Scotland."
+    },
+    {
+      "claim_id": "c277/0/003",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific tournament results beyond the text's actual end."
+    },
+    {
+      "claim_id": "c277/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific continuation content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c277/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Fabricated continuation (no 'Wales' mention exists) beyond the text's actual end."
+    },
+    {
+      "claim_id": "c180/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what field would come next in the struct literal."
+    },
+    {
+      "claim_id": "c180/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about unseen struct fields."
+    },
+    {
+      "claim_id": "c180/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is speculative interpretation of unseen continuation content."
+    },
+    {
+      "claim_id": "c180/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific field name that would appear next."
+    },
+    {
+      "claim_id": "c099/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific word(s) that complete the truncated phrase."
+    },
+    {
+      "claim_id": "c135/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific characters needed to complete the truncated identifier."
+    },
+    {
+      "claim_id": "c038/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c038/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation beyond the text's end."
+    },
+    {
+      "claim_id": "c240/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific word(s) that would complete the truncated title."
+    },
+    {
+      "claim_id": "c240/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an explicit prediction of continuation text."
+    },
+    {
+      "claim_id": "c159/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific field name that completes the truncated identifier."
+    },
+    {
+      "claim_id": "c159/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This explicitly frames itself as a prediction of continuation text."
+    },
+    {
+      "claim_id": "c159/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that a struct field iteration will occur next in the code."
+    },
+    {
+      "claim_id": "c062/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content, built on an unestablished org name."
+    },
+    {
+      "claim_id": "c062/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c264/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific noun phrase that would complete 'the collection of...'."
+    },
+    {
+      "claim_id": "c264/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an explicit prediction of continuation text."
+    },
+    {
+      "claim_id": "c183/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unwritten continuation content."
+    },
+    {
+      "claim_id": "c183/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about specific file-copy code that may or may not follow."
+    },
+    {
+      "claim_id": "c183/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the anticipated topic of unseen following text."
+    },
+    {
+      "claim_id": "c086/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c086/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation misattributing the story to Silas Marner/George Eliot."
+    },
+    {
+      "claim_id": "c086/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation misattributing the story to Silas Marner."
+    },
+    {
+      "claim_id": "c086/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c288/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim quotes the truncated text as describing a \"gold medal in the four\", but the context actually reads \"...won the Queen's Cup at the Australian Interstate\" describing a women's eight, not a \"four\" event with a gold medal."
+    },
+    {
+      "claim_id": "c288/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific competition name that would complete the sentence."
+    },
+    {
+      "claim_id": "c288/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim attributes the continuation to a rower named \"Martin\", but the sentence being completed already establishes the subject as \"Howe\" (\"In 2019 Howe was selected...\") in the given text."
+    },
+    {
+      "claim_id": "c288/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that geographic/event terminology continuation follows."
+    },
+    {
+      "claim_id": "c025/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c025/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content past the text's end."
+    },
+    {
+      "claim_id": "c025/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Entirely fabricated continuation beyond the text's actual end (unrelated WeatherNation content)."
+    },
+    {
+      "claim_id": "c243/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unwritten content about post-retirement or new appointments."
+    },
+    {
+      "claim_id": "c243/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific unwritten wording and wrongly names the subject 'Larsen' instead of Hamrén."
+    },
+    {
+      "claim_id": "c243/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific unwritten date example ('On 4 February 2015') not present in the text."
+    },
+    {
+      "claim_id": "c146/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen remaining characters."
+    },
+    {
+      "claim_id": "c146/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c049/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts a parenthetical continuation beyond the text's actual end."
+    },
+    {
+      "claim_id": "c049/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content past the text's end."
+    },
+    {
+      "claim_id": "c049/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Entirely fabricated/wrong-topic (painting) continuation beyond the text's end."
+    },
+    {
+      "claim_id": "c267/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific noun phrase and historical detail that would complete the truncated heading."
+    },
+    {
+      "claim_id": "c267/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about the theme of the unwritten following section."
+    },
+    {
+      "claim_id": "c267/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific unwritten proper noun phrase."
+    },
+    {
+      "claim_id": "c170/0/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "The timestamp value type isn't shown in this truncated text; this is a prediction."
+    },
+    {
+      "claim_id": "c170/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts an unseen value format not shown in this text."
+    },
+    {
+      "claim_id": "c170/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen numeric value."
+    },
+    {
+      "claim_id": "c170/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen fields with invented names not established in the text."
+    },
+    {
+      "claim_id": "c170/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c073/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion words beyond the text's actual end."
+    },
+    {
+      "claim_id": "c291/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what the truncated description of the young specimens will specify."
+    },
+    {
+      "claim_id": "c291/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific next word(s) completing the truncated sentence."
+    },
+    {
+      "claim_id": "c194/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c194/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c097/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts the specific noun phrase beyond the text's actual end."
+    },
+    {
+      "claim_id": "c097/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific referent content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c230/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content; the text has moved on to basketball at this point."
+    },
+    {
+      "claim_id": "c230/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content; the narrative was on basketball, not restarting football/soccer."
+    },
+    {
+      "claim_id": "c230/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen next digit and is inconsistent with the visible '2013' prefix."
+    },
+    {
+      "claim_id": "c230/0/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content not supported by the visible basketball narrative."
+    },
+    {
+      "claim_id": "c133/0/003",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts continuation content beyond the text's actual end, and mischaracterizes it as grep output."
+    },
+    {
+      "claim_id": "c133/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts a specific subdirectory name beyond the text's actual end."
+    },
+    {
+      "claim_id": "c133/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction of continuation content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c133/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts closing content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c036/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific words that would complete the verb phrase."
+    },
+    {
+      "claim_id": "c254/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen details about the donation's source/nature."
+    },
+    {
+      "claim_id": "c254/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen dollar amount/source."
+    },
+    {
+      "claim_id": "c254/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen donor details not established in the text."
+    },
+    {
+      "claim_id": "c157/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific continuation content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c157/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts what follows beyond the text's actual end."
+    },
+    {
+      "claim_id": "c157/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts a specific block continuation not established in the given text."
+    },
+    {
+      "claim_id": "c060/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that a summarizing clause follows the text's end."
+    },
+    {
+      "claim_id": "c060/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific words that would complete the fragment."
+    },
+    {
+      "claim_id": "c060/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts possible completions of the truncated phrase."
+    },
+    {
+      "claim_id": "c060/0/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is speculation about how the unseen conclusion would read."
+    },
+    {
+      "claim_id": "c278/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Whether this is truly the last cast entry cannot be determined from this truncated excerpt."
+    },
+    {
+      "claim_id": "c278/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen continuation/formatting."
+    },
+    {
+      "claim_id": "c278/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c181/0/001",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Vague prediction of continuation beyond the text's actual end."
+    },
+    {
+      "claim_id": "c181/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific digits beyond the text's actual end."
+    },
+    {
+      "claim_id": "c181/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim asserts \"17116\" is part of another timestamp/clock value, but the actual digits in the context are \"17616\" (context ends \"...\\\"uuid\\\": \\\"17616\") — a false quote of the existing digits."
+    },
+    {
+      "claim_id": "c181/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c084/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts how the Video format definition would be completed."
+    },
+    {
+      "claim_id": "c084/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific hosting details that might follow the text's end."
+    },
+    {
+      "claim_id": "c039/0/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that further beer examples will follow the cut-off text."
+    },
+    {
+      "claim_id": "c039/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts continuation of a themed list beyond the given text."
+    },
+    {
+      "claim_id": "c039/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific words needed to complete the truncated beer name."
+    },
+    {
+      "claim_id": "c039/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts further enumeration and invents 'Washington County' which is not named in the text."
+    },
+    {
+      "claim_id": "c039/0/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about the unstated style of the Blackberry beer."
+    },
+    {
+      "claim_id": "c241/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific continuation content (and wrong names) beyond the text's actual end."
+    },
+    {
+      "claim_id": "c241/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction using a name ('Preeta') absent from the text."
+    },
+    {
+      "claim_id": "c241/0/011",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction using a name ('Karma') absent from the text, about content beyond the end."
+    },
+    {
+      "claim_id": "c144/0/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about what a (non-existent, per the text) timestamp would lead to."
+    },
+    {
+      "claim_id": "c144/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that command/script details would follow the text's end."
+    },
+    {
+      "claim_id": "c144/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific type of command that might appear next."
+    },
+    {
+      "claim_id": "c063/0/001",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts stylistic elements (SQL analogies) that may appear later in the book but aren't shown."
+    },
+    {
+      "claim_id": "c063/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen future content (`__SUPERCLASS`, `ClassGroup`) not present in the given text."
+    },
+    {
+      "claim_id": "c063/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts a specific WMI example value that is not part of this Active Directory text."
+    },
+    {
+      "claim_id": "c265/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts a specific name beyond the text's actual end."
+    },
+    {
+      "claim_id": "c265/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim asserts the existing text includes \"The dialogue used the poet's original verses.\" immediately before \"Carnatic\", but no such sentence exists in the context — it ends \"...Papanasam Sivan was hired to write the lyrics. Carnatic\" with no intervening fabricated sentence."
+    },
+    {
+      "claim_id": "c265/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion words beyond the text's actual end."
+    },
+    {
+      "claim_id": "c168/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific digits that would complete the timestamp."
+    },
+    {
+      "claim_id": "c168/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about what would follow the truncated timestamp."
+    },
+    {
+      "claim_id": "c168/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is speculation about an unseen continuation describing a streaming protocol."
+    },
+    {
+      "claim_id": "c168/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific unseen phrasing ('message content from')."
+    },
+    {
+      "claim_id": "c087/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about what word follows the cut-off 'no'."
+    },
+    {
+      "claim_id": "c087/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an alternate speculative guess about the truncated word."
+    },
+    {
+      "claim_id": "c087/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific completion of the truncated ingredient description."
+    },
+    {
+      "claim_id": "c289/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion content (and wrong term) beyond the text's actual end."
+    },
+    {
+      "claim_id": "c289/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative prediction about content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c289/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Fabricated continuation referencing Japan (wrong country) beyond the text's actual end."
+    },
+    {
+      "claim_id": "c192/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific digits that would complete the timestamp."
+    },
+    {
+      "claim_id": "c192/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is speculation about clock time based on an unseen completion, and also misreads the actual hour shown."
+    },
+    {
+      "claim_id": "c192/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific characters/timezone marker that would follow."
+    },
+    {
+      "claim_id": "c026/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c026/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c026/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c026/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation of the truncated comment."
+    },
+    {
+      "claim_id": "c026/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c228/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what predicate would follow describing the boardwalk's fate."
+    },
+    {
+      "claim_id": "c228/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim quotes the truncated sentence as \"Due to heavy storms and erosion, in 2017 a boardwalk\", but the context actually reads \"During storms in 2018, a boardwalk\" — wrong year and wrong wording for existing text."
+    },
+    {
+      "claim_id": "c228/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is speculation about unseen continuation content."
+    },
+    {
+      "claim_id": "c228/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that the sentence continues describing storm/damage impact."
+    },
+    {
+      "claim_id": "c147/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific characters that would follow the truncated year."
+    },
+    {
+      "claim_id": "c147/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is speculation about the model's own interpretation of whether the scenario is synthetic."
+    },
+    {
+      "claim_id": "c147/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This describes the model's own expectation-constraining process, not a checkable text fact."
+    },
+    {
+      "claim_id": "c147/0/010",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Whether this is an 'AI-generated scenario' is a meta-judgment about the data's nature, not verifiable from the text itself."
+    },
+    {
+      "claim_id": "c050/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c050/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This is an invented continuation beyond the text's end."
+    },
+    {
+      "claim_id": "c252/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about unseen content contrasting Air Forces experience with German/Berlin intelligence work, which isn't in the text."
+    },
+    {
+      "claim_id": "c252/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts what specific unit or qualifier would follow the text's end."
+    },
+    {
+      "claim_id": "c171/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the exact number of characters needed to complete a UUID."
+    },
+    {
+      "claim_id": "c171/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that the truncated string is completed with more hex characters."
+    },
+    {
+      "claim_id": "c074/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen next keyword variant."
+    },
+    {
+      "claim_id": "c074/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts how the unseen quote will be closed."
+    },
+    {
+      "claim_id": "c276/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about the genre/content of an unseen title."
+    },
+    {
+      "claim_id": "c276/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts constraints on the unseen completion of the title."
+    },
+    {
+      "claim_id": "c276/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts specific candidate titles that would complete 'Il'."
+    },
+    {
+      "claim_id": "c276/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the genre/type of the unseen next bibliographic entry."
+    },
+    {
+      "claim_id": "c195/0/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that a UUID string will complete the truncated identifier."
+    },
+    {
+      "claim_id": "c195/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific hyphenated hex format of the completed UUID."
+    },
+    {
+      "claim_id": "c195/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that a full 32-character hex identifier follows the truncation point."
+    },
+    {
+      "claim_id": "c098/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c098/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts unseen continuation content."
+    },
+    {
+      "claim_id": "c231/0/003",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts an unwritten final achievement and names Sydney, which isn't specifically confirmed in the golf section."
+    },
+    {
+      "claim_id": "c231/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific year that would follow the truncated 'In'."
+    },
+    {
+      "claim_id": "c231/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts further achievements capping the subject's career."
+    },
+    {
+      "claim_id": "c134/0/004",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim predicts the next field value is `gitBranch: 'feature/add-guest-booking-view'`, but the identical metadata block earlier in the same given context already establishes `\"gitBranch\": \"soph/gemini-rewind\"` for this session."
+    },
+    {
+      "claim_id": "c134/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "RELATED_FALSE",
+      "justification": "Claim predicts the branch name completing the truncated field is 'feature/restrict-editable-fields', but the repeated metadata schema earlier in the same context already establishes the branch as \"soph/gemini-rewind\"."
+    },
+    {
+      "claim_id": "c134/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen field name."
+    },
+    {
+      "claim_id": "c037/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts a specific next list entry beyond the text's actual end."
+    },
+    {
+      "claim_id": "c037/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts how the list resumes beyond the text's actual end."
+    },
+    {
+      "claim_id": "c255/0/003",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts that further descriptions will continue the established pattern."
+    },
+    {
+      "claim_id": "c255/0/005",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the type of descriptor that would follow the truncated name."
+    },
+    {
+      "claim_id": "c255/0/008",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This speculates about the occupation of an unwritten, not-yet-described person."
+    },
+    {
+      "claim_id": "c158/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen loop condition/increment code."
+    },
+    {
+      "claim_id": "c061/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts what follows 'Monsters' beyond the text's actual end."
+    },
+    {
+      "claim_id": "c279/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the specific noun that completes the truncated phrase."
+    },
+    {
+      "claim_id": "c182/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "This predicts the unseen remaining digits of the uuid."
+    },
+    {
+      "claim_id": "c085/0/006",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts specific completion content beyond the text's actual end."
+    },
+    {
+      "claim_id": "c085/0/007",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Speculative examples of completion beyond the text's actual end."
+    },
+    {
+      "claim_id": "c085/0/009",
+      "old_label": "UNVERIFIABLE",
+      "new_label": "UNVERIFIABLE",
+      "justification": "Predicts what follows 'ad-hoc' beyond the text's actual end."
+    }
+  ]
+}

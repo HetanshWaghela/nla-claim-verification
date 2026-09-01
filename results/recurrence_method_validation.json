@@ -1,0 +1,8 @@
+{
+ "method": "mechanical distinctive-token overlap (>=50% tokens present)",
+ "validated_against": "R0 LLM counts",
+ "n": 246,
+ "spearman": 0.41,
+ "exact_match": 0.35,
+ "within_1": 0.476
+}

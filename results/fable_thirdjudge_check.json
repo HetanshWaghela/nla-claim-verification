@@ -1,0 +1,358 @@
+{
+ "judge": "claude-fable-5 (in-session, blind: labels written before comparison)",
+ "n": 50,
+ "agree": 43,
+ "rate": 0.86,
+ "rows": [
+  {
+   "n": 1,
+   "claim_id": "c173/0/001",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 2,
+   "claim_id": "c180/0/006",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": true
+  },
+  {
+   "n": 3,
+   "claim_id": "c299/0/003",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 4,
+   "claim_id": "c086/0/001",
+   "fable": "RELATED_FALSE",
+   "sonnet": "TRUE",
+   "agree": false
+  },
+  {
+   "n": 5,
+   "claim_id": "c133/0/001",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 6,
+   "claim_id": "c134/0/001",
+   "fable": "TRUE",
+   "sonnet": "RELATED_FALSE",
+   "agree": false
+  },
+  {
+   "n": 7,
+   "claim_id": "c233/0/011",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": true
+  },
+  {
+   "n": 8,
+   "claim_id": "c022/0/006",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": true
+  },
+  {
+   "n": 9,
+   "claim_id": "c276/0/009",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": true
+  },
+  {
+   "n": 10,
+   "claim_id": "c184/0/011",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 11,
+   "claim_id": "c000/0/002",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 12,
+   "claim_id": "c051/0/008",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 13,
+   "claim_id": "c013/507/013",
+   "fable": "RELATED_FALSE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": false
+  },
+  {
+   "n": 14,
+   "claim_id": "c157/0/000",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 15,
+   "claim_id": "c228/0/006",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 16,
+   "claim_id": "c066/0/001",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 17,
+   "claim_id": "c071/0/004",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": true
+  },
+  {
+   "n": 18,
+   "claim_id": "c203/143/004",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 19,
+   "claim_id": "c221/0/006",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 20,
+   "claim_id": "c101/52/007",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 21,
+   "claim_id": "c093/0/007",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 22,
+   "claim_id": "c272/0/003",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 23,
+   "claim_id": "c227/0/007",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 24,
+   "claim_id": "c068/0/008",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 25,
+   "claim_id": "c075/0/004",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 26,
+   "claim_id": "c256/0/003",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 27,
+   "claim_id": "c176/0/002",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 28,
+   "claim_id": "c028/0/008",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 29,
+   "claim_id": "c039/0/001",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 30,
+   "claim_id": "c177/0/004",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 31,
+   "claim_id": "c249/0/002",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 32,
+   "claim_id": "c072/0/004",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 33,
+   "claim_id": "c136/0/008",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 34,
+   "claim_id": "c288/0/001",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 35,
+   "claim_id": "c274/0/001",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 36,
+   "claim_id": "c101/52/008",
+   "fable": "RELATED_FALSE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": false
+  },
+  {
+   "n": 37,
+   "claim_id": "c000/0/005",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 38,
+   "claim_id": "c253/0/006",
+   "fable": "TRUE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": false
+  },
+  {
+   "n": 39,
+   "claim_id": "c147/0/000",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 40,
+   "claim_id": "c044/0/001",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 41,
+   "claim_id": "c111/442/005",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 42,
+   "claim_id": "c247/0/007",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": true
+  },
+  {
+   "n": 43,
+   "claim_id": "c105/208/000",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 44,
+   "claim_id": "c223/0/009",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": true
+  },
+  {
+   "n": 45,
+   "claim_id": "c100/13/007",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  },
+  {
+   "n": 46,
+   "claim_id": "c001/39/011",
+   "fable": "RELATED_FALSE",
+   "sonnet": "UNVERIFIABLE",
+   "agree": false
+  },
+  {
+   "n": 47,
+   "claim_id": "c075/0/006",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 48,
+   "claim_id": "c052/0/005",
+   "fable": "UNVERIFIABLE",
+   "sonnet": "RELATED_FALSE",
+   "agree": false
+  },
+  {
+   "n": 49,
+   "claim_id": "c280/0/000",
+   "fable": "TRUE",
+   "sonnet": "TRUE",
+   "agree": true
+  },
+  {
+   "n": 50,
+   "claim_id": "c070/0/005",
+   "fable": "RELATED_FALSE",
+   "sonnet": "RELATED_FALSE",
+   "agree": true
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "threshold": 0.3,
+  "checks": {
+    "token_length": {
+      "name": "corr(excess, claim token length)",
+      "x": "claim_token_length",
+      "y": "raw_excess",
+      "n": 2127,
+      "bootstrap_resamples_requested": 1000,
+      "bootstrap_level": "context",
+      "status": "passed",
+      "r": 0.024574922062707602,
+      "bootstrap_attempts": 1000,
+      "bootstrap_resamples_valid": 1000,
+      "ci95": [
+        -0.020140027968342616,
+        0.07854426250903424
+      ],
+      "threshold": 0.3,
+      "flag": false
+    },
+    "position": {
+      "name": "corr(excess, position in explanation)",
+      "x": "claim_index",
+      "y": "raw_excess",
+      "n": 2127,
+      "bootstrap_resamples_requested": 1000,
+      "bootstrap_level": "context",
+      "status": "passed",
+      "r": 0.09644587905401489,
+      "bootstrap_attempts": 1000,
+      "bootstrap_resamples_valid": 1000,
+      "ci95": [
+        0.06924331354159141,
+        0.12542978671516866
+      ],
+      "threshold": 0.3,
+      "flag": false
+    },
+    "duplicate_claim_consistency": {
+      "name": "duplicate-claim consistency",
+      "duplicate_groups": [],
+      "duplicate_pairs": [],
+      "n_duplicate_groups": 0,
+      "n_duplicate_pairs": 0,
+      "status": "insufficient_duplicate_pairs",
+      "r": null,
+      "ci95": null
+    }
+  },
+  "matched_analysis": {
+    "required": false,
+    "status": "not_triggered"
+  }
+}

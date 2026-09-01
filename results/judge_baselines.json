@@ -1,0 +1,17 @@
+{
+ "judge_without_context": {
+  "auroc": 0.5217454309874523,
+  "ci_lo": 0.47091758578431375,
+  "ci_hi": 0.5701885092522004,
+  "n_true": 188,
+  "n_rf": 312
+ },
+ "judge_with_context_ceiling": {
+  "auroc": 0.9195137752318603,
+  "ci_lo": 0.8937069099580115,
+  "ci_hi": 0.9443193369301743,
+  "n_true": 188,
+  "n_rf": 312
+ },
+ "basis": "deepseek-v4-flash via command-code harness, 500-claim seed-0 sample, context-level bootstrap x1000"
+}
