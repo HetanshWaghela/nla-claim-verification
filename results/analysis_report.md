@@ -4,8 +4,8 @@ Description-only artifact. No interpretation is included.
 
 ## Gates
 
-- Startup assertions: `passed`; evidence: `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/phase6_startup.json`.
-- G5 golden tests: `passed`; evidence: `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/phase6_golden_tests.json`.
+- Startup assertions: `passed`; evidence: `results/phase6_startup.json`.
+- G5 golden tests: `passed`; evidence: `results/phase6_golden_tests.json`.
 - Eligible analysis rows: `2127`; required: `2127`.
 - Cost: `$0.00`; billing basis: local Python process, no Modal, no OpenRouter/API calls, no GPU.
 
@@ -67,10 +67,10 @@ Description-only artifact. No interpretation is included.
 
 ## Figures
 
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig1_excess_by_label.png`
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig2_paraphrase_false_substitute.png`
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig3_ar_shortcut_fve.png`
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig4_roc_curves.png`
+- `results/figs/fig1_excess_by_label.png`
+- `results/figs/fig2_paraphrase_false_substitute.png`
+- `results/figs/fig3_ar_shortcut_fve.png`
+- `results/figs/fig4_roc_curves.png`
 
 ## Confound checks
 
@@ -4346,8 +4346,8 @@ c299/0/009
 
 ## Evidence files
 
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/phase6_metrics.json`
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/phase6_confounds.json`
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/phase6_robustness.json`
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/phase6_figures.json`
-- `/Users/Hetansh/Github/neel-nanda/nla-verifier/results/extreme_cases.md`
+- `results/phase6_metrics.json`
+- `results/phase6_confounds.json`
+- `results/phase6_robustness.json`
+- `results/phase6_figures.json`
+- `results/extreme_cases.md`

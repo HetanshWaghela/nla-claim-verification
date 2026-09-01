@@ -22,13 +22,13 @@
     "recurrence_non_null": 691
   },
   "outputs": {
-    "analysis_report": "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/analysis_report.md",
-    "extreme_cases": "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/extreme_cases.md",
+    "analysis_report": "results/analysis_report.md",
+    "extreme_cases": "results/extreme_cases.md",
     "figures": [
-      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig1_excess_by_label.png",
-      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig2_paraphrase_false_substitute.png",
-      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig3_ar_shortcut_fve.png",
-      "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/figs/fig4_roc_curves.png"
+      "results/figs/fig1_excess_by_label.png",
+      "results/figs/fig2_paraphrase_false_substitute.png",
+      "results/figs/fig3_ar_shortcut_fve.png",
+      "results/figs/fig4_roc_curves.png"
     ]
   },
   "wall_time_seconds": 42.50435996055603

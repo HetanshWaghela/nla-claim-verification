@@ -1,5 +1,5 @@
 {
- "judge": "claude-fable-5 (in-session, blind: labels written before comparison)",
+ "judge": "Claude Fable 5.1, second model family; labels written before comparison with the labeling model",
  "n": 50,
  "agree": 43,
  "rate": 0.86,

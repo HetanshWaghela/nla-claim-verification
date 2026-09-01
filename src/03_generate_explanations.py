@@ -172,7 +172,7 @@ def _atomic_json(path: Path, value: Any) -> None:
 
 
 class _WorkerResourceSampler:
-    """Best-effort worker telemetry required by the 2026-08-16b amendment."""
+    """Best-effort per-worker resource telemetry (CPU, memory, GPU) for the run record."""
 
     def __init__(self, label: str, interval_seconds: float = 5.0) -> None:
         safe_label = re.sub(r"[^A-Za-z0-9_.-]+", "_", label)

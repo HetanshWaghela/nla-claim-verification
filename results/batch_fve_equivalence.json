@@ -3295,5 +3295,5 @@
     "errors": [],
     "artifact_path": "/artifacts/phase2b/resource_metrics/batch_fve_equivalence_1786860257_2.json"
   },
-  "right_sizing_evidence": "/Users/Hetansh/Github/neel-nanda/nla-verifier/results/container_rightsizing.json"
+  "right_sizing_evidence": "results/container_rightsizing.json"
 }
