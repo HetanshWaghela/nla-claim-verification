@@ -97,7 +97,7 @@ CLAIM_TYPES = {"CONTEXT", "COGNITION"}
 
 
 class Phase3Error(RuntimeError):
-    """A runbook or guardrail failure that must halt the phase."""
+    """A specification or guardrail failure that must halt the phase."""
 
 
 def _now() -> str:

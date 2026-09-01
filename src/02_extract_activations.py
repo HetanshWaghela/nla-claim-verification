@@ -1,4 +1,4 @@
-"""Extract target-model layer-42 activations for the Phase 2a runbook."""
+"""Extract target-model layer-42 activations for Phase 2a."""
 
 from __future__ import annotations
 
@@ -134,12 +134,12 @@ def _load_fixture_rows() -> list[dict[str, Any]]:
     for row in rows:
         if int(row["activation_layer"]) != TARGET_LAYER:
             raise RuntimeError(
-                "fixture activation layer contradicts the runbook: "
+                "fixture activation layer contradicts the spec: "
                 f"{row['activation_layer']}"
             )
         if len(row["activation_vector"]) != VECTOR_WIDTH:
             raise RuntimeError(
-                "fixture activation width contradicts the runbook: "
+                "fixture activation width contradicts the spec: "
                 f"{len(row['activation_vector'])}"
             )
     return rows

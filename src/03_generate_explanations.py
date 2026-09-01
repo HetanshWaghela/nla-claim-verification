@@ -1103,7 +1103,7 @@ def _seeded_batched_generate(
     import torch
 
     assert int(cfg.injection_token_id) == INJECTION_TOKEN_ID, (
-        "configured marker token differs from the amended runbook: "
+        "configured marker token differs from the configured spec: "
         f"{cfg.injection_token_id} != {INJECTION_TOKEN_ID}"
     )
     tokenizer.padding_side = "left"
@@ -1562,7 +1562,7 @@ def qualify_batching_optionc() -> dict[str, Any]:
         actor, tokenizer, cfg, device, vectors_ref, fixture_rows = _load_actor()
         if int(cfg.injection_token_id) != INJECTION_TOKEN_ID:
             raise RuntimeError(
-                "checkpoint injection token contradicts the amended runbook: "
+                "checkpoint injection token contradicts the configured spec: "
                 f"{cfg.injection_token_id} != {INJECTION_TOKEN_ID}"
             )
         result = _qualification(
@@ -1627,7 +1627,7 @@ def run_batch_fve_equivalence() -> dict[str, Any]:
         actor, tokenizer, cfg, device, vectors_ref, _ = _load_actor()
         if int(cfg.injection_token_id) != INJECTION_TOKEN_ID:
             raise RuntimeError(
-                "checkpoint injection token contradicts the amended runbook: "
+                "checkpoint injection token contradicts the configured spec: "
                 f"{cfg.injection_token_id} != {INJECTION_TOKEN_ID}"
             )
         tokenizer.padding_side = "left"

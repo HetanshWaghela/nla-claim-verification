@@ -1,4 +1,4 @@
-"""Collect the 300 contexts required by the Phase 1 runbook.
+"""Collect the 300 contexts specified for Phase 1.
 
 This phase is deliberately local.  It streams the three specified Hugging
 Face datasets, trims with the AV tokenizer, writes one parquet file, and

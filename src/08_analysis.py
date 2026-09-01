@@ -1307,7 +1307,7 @@ def _make_report(
         "- Raw excess: `(MSE(DELETE_MECH)-MSE(GENUINE)) - mean(MSE(RANDOM_SPAN)-MSE(GENUINE))`.",
         "- DELETION_REWRITE excess: the same control subtraction for each of the three rewrite scores, then the mean over the three values where all exist.",
         "- Solo gain: `MSE(mean-prediction baseline) - MSE(SOLO)`; the baseline uses the normalized primary activation's MSE to the normalized primary-activation mean, using the recorded AR normalization scale.",
-        "- Recurrence-aggregated excess: mean sibling `DELETE_MECH` MSE over offsets `1..min(recurrence_positions,3)` minus the primary random-span mean. The sibling artifact has no sibling random-span scores; this is therefore a noisy secondary mechanical proxy, as required by amendment 2026-08-16b.",
+        "- Recurrence-aggregated excess: mean sibling `DELETE_MECH` MSE over offsets `1..min(recurrence_positions,3)` minus the primary random-span mean. The sibling artifact has no sibling random-span scores; this is therefore a noisy secondary mechanical proxy, and is reported as a noisy secondary proxy.",
         "",
         "## Table 1: AUROC with 95% context-level bootstrap CIs",
         "",
