@@ -305,7 +305,7 @@ def _generate_kernel_branch(repo_dir: str, *, kernels_on: bool) -> dict:
 
 @app.function(**GPU_FUNCTION_KWARGS)
 def validate_kernel_branches() -> dict:
-    """Run the amendment's greedy kernel ON/OFF smoke validation."""
+    """Run the greedy kernel ON/OFF smoke validation."""
 
     import gc
 

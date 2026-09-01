@@ -442,7 +442,7 @@ def _cold_start_excluded_wave_diagnostic(
     workspace_delta: "Decimal",
     actual_rows: int,
 ) -> dict[str, Any]:
-    """Report the amendment's cold-start-excluded diagnostic only."""
+    """Report the cold-start-excluded FVE diagnostic only."""
 
     from decimal import Decimal
 
@@ -492,7 +492,7 @@ def _cold_start_excluded_wave_diagnostic(
 def _retroactively_clear_wave1(
     projection: dict[str, Any],
 ) -> tuple[dict[str, Any], dict[str, Any], int]:
-    """Apply Amendment 2026-08-16c without regenerating completed shards."""
+    """Apply the 2026-08-16 correction pass without regenerating completed shards."""
 
     from decimal import Decimal
 
@@ -521,7 +521,7 @@ def _retroactively_clear_wave1(
     correction = {
         "status": "passed" if cleared else "failed_gate",
         "created_at_unix": time.time(),
-        "directive": "AMENDMENT 2026-08-16c",
+        "directive": "correction pass 2026-08-16",
         "predecessor_wave": str(wave_path),
         "prior_wave_status": wave.get("status"),
         "shard_indices": wave.get("shard_indices", []),
@@ -543,7 +543,7 @@ def _retroactively_clear_wave1(
     _atomic_json(correction_path, correction)
     if not cleared:
         raise RuntimeError(
-            "Amendment 2026-08-16c correction gate failed; see "
+            "Correction gate failed; see "
             f"{correction_path}"
         )
 
@@ -1500,7 +1500,7 @@ def _qualification(
 
 @app.function(**GPU_FUNCTION_KWARGS_BATCH4)
 def qualify_batching() -> dict[str, Any]:
-    """Run the amendment's batch-8, then batch-4 qualification."""
+    """Run the batch-8, then batch-4 qualification."""
 
     import gc
 
@@ -1601,7 +1601,7 @@ def qualify_batching_optionc() -> dict[str, Any]:
 
 @app.function(**GPU_FUNCTION_KWARGS_BATCH4)
 def run_batch_fve_equivalence() -> dict[str, Any]:
-    """Run the amendment's 16-row batch-8 FVE gate with worker telemetry."""
+    """Run the 16-row batch-8 FVE gate with worker telemetry."""
 
     import gc
 
@@ -2216,7 +2216,7 @@ def _write_rightsizing_from_fve(fve: dict[str, Any]) -> dict[str, Any]:
     evidence = {
         "status": status,
         "created_at_unix": time.time(),
-        "directive": "AMENDMENT 2026-08-16b container right-sizing",
+        "directive": "container right-sizing 2026-08-16",
         "non_blocking": True,
         "fve_result": str(FVE_RESULT_PATH),
         "resource_metrics": metrics,

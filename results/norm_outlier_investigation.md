@@ -29,7 +29,7 @@ abs_position 396 is the token `":` - the JSON delimiter in `"version": 3`.
 3. Phase 6 robustness requirement (carried forward): recompute headline
    metrics excluding flagged outlier rows and report both numbers.
 
-**Gate semantics amendment (applied to RUNBOOK):** the norm band is a
+**Gate semantics change:** the norm band is a
 tripwire requiring investigation, not an auto-fail. Out-of-band rows pass iff
 (a) <=0.5% of rows, (b) explained by token-level inspection, (c) documented
 here and flagged for the Phase 6 robustness check. Any of those failing =
